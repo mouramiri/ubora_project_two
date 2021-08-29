@@ -1,0 +1,164 @@
+/* Global Layout Set-up */
+* { 
+    box-sizing: border-box;
+}
+    
+body {
+    margin: 5% 10% 0 10%;
+    padding: 0;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: #222;
+    background: #f7f5f0;
+}
+
+/* Link Styles */
+a {
+    text-decoration: none;
+    color: #999;
+}
+a:hover {
+    color: #6633ff;
+}
+
+/* Section Styles */
+
+/* NAVIGATION */
+.main-nav {
+    min-height: 30px;
+    padding: 10px;
+    position: absolute;
+    text-align: left;
+    align-content: center;
+}
+
+.nav {
+    display: flex;
+    justify-content: flex-end;
+    font-weight: 700;
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+  }
+  
+.name {
+    display: block;
+    color: black;
+    align-content: center;
+}
+.nav li {
+    padding: 5px 10px 10px 10px;
+}
+.nav a {
+    transition: all .5s;
+}
+.nav a:hover {
+    color: white
+}
+
+/* HEADER */ 
+.header-block {
+    padding: 10px 0;
+    margin: 10px 0;
+    display: inline-flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.header-image {
+    margin: auto;
+}
+
+.header-card {
+    justify-content: right;
+    margin: 20px 0;
+    padding: 20px 0;
+}
+
+.header-p {
+    justify-content: left;
+    margin: 20px 30px 0 10px;
+    padding: 20px 30px 0 0;
+    text-align: left;
+}
+
+/* MAIN */
+.main-div {
+    background-color: white;
+}
+.main-block {
+    padding: 10px;
+    margin: 10px auto;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+h3 {
+    padding-top: 60px;
+}
+
+.portfolio-card {
+    margin: 0 30px;
+    padding: 20px 40px 40px;
+    max-width: 500px;
+}
+
+.portfolio-img {
+    margin-top: 50px;
+    width: 300px;
+    height: 200px;
+}
+
+.card-p {
+    text-align: center;
+    width: 300px;
+}
+
+.contact {
+    display: grid;
+    width: 50%;
+    justify-content: center;
+    margin: 0 25%;
+}
+
+/* FOOTER */
+footer {
+    width: 100%;
+    min-height: 30px;
+    margin-top: 200px;
+    padding: 0 10px;
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.nav-footer {
+    list-style-type: none;
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.footer-name {
+    justify-content: left;
+}
+
+.nav-footer li {
+    padding: 5px 0 10px 10px;
+}
+  
+/* Media Queries */
+@media only screen and (max-width: 600px){
+    body {
+        display: inline-grid;
+    }
+    /* main {
+        display: inline-grid;
+        justify-content: center;
+    }
+
+    footer {
+        display: inline-grid;
+        justify-content: center;
+    } */
+
+}
